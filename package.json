@@ -1,0 +1,8 @@
+{
+  "name": "Clothes in Boxes",
+  "packageManager": "yarn@3.3.0",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-crud-table": "^0.3.1"
+  }
+}

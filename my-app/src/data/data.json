@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "customer":"Dillards",
+        "image":"CAD",
+        "style":"K46310J",
+        "design":"JFS-45310D",
+        "description":"LS OPEN CARDIGAN WITH HOOD AND POCKET",
+        "sample":"TOP",
+        "qtt":1,
+        "comments":" "
+    },
+    {
+        "id": 2,
+        "customer":"Dillards",
+        "image":"CAD",
+        "style":"K46145J",
+        "design":"JFS-62145",
+        "description":"PUFF SLEEVE MOCK RIB PULLOVER",
+        "sample":"TOP",
+        "qtt":3,
+        "comments":"Submitted 1pc 03/15"
+    },
+    {
+        "id": 3,
+        "customer":"Dillards",
+        "image":"CAD",
+        "style":"K46929J",
+        "design":"JFS-62929A",
+        "description":"RAGLAN SLV V-NECK PO",
+        "sample":"TOP",
+        "qtt":3,
+        "comments":" "
+    },
+    {
+        "id": 4,
+        "customer":"Dillards",
+        "image":"CAD",
+        "style":"K03553J",
+        "design":"JFS-62553",
+        "description":"SKYLAR - L/S PUFF SLEEVE SWEATER WITH LUREX",
+        "sample":"TOP",
+        "qtt":1,
+        "comments":"Submitted 1pc 03/15"
+    }
+    
+]
