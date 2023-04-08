@@ -13,7 +13,6 @@ export default function ItemList() {
         <form onSubmit={handleUpdate}>
           <table>
             <thead>
-              <th>ID</th>
               <th>CUSTOMER</th>
               <th>IMAGE</th>
               <th>STYLE#</th>
@@ -28,7 +27,6 @@ export default function ItemList() {
                 <EditItem current={current} data={data} setData={setData} />
               ) : (
                 <tr>
-                  <td>{current.id}</td>
                   <td>{current.customer}</td>
                   <td>{current.image}</td>
                   <td>{current.style}</td>
