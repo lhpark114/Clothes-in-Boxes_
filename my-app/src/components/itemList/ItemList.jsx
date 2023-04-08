@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import AddItem from "./AddItem";
+import AddItem from "../addItem/AddItem";
 import Data from "../../data/data.json";
 
 export default function ItemList() {
