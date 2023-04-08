@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import {v4 as uuid4} from 'uuid';
 
 export default function AddItem({ setData }) {
   const customerRef = useRef();
@@ -21,7 +22,7 @@ export default function AddItem({ setData }) {
     const qtt = event.target.elements.qtt.value;
     const cmts = event.target.elements.comments.value;
     const newItem = {
-      id: 5,
+      id: uuid4(),
       customer,
       image,
       style,
@@ -44,6 +45,7 @@ export default function AddItem({ setData }) {
 
   return (
     <form className="addForm" onSubmit={handleValues}>
+      
       <input
         type="text"
         name="customer"

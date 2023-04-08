@@ -28,6 +28,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["react", "npm:18.2.0"],\
+            ["react-crud-table", "npm:0.3.1"],\
+            ["uuid", "npm:9.0.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -36,9 +39,276 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["Clothes in Boxes", "workspace:."]\
+            ["Clothes in Boxes", "workspace:."],\
+            ["react", "npm:18.2.0"],\
+            ["react-crud-table", "npm:0.3.1"],\
+            ["uuid", "npm:9.0.0"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["bem-react-component-creator", [\
+        ["npm:1.2.0", {\
+          "packageLocation": "./.yarn/cache/bem-react-component-creator-npm-1.2.0-409d50f996-661b2f4608.zip/node_modules/bem-react-component-creator/",\
+          "packageDependencies": [\
+            ["bem-react-component-creator", "npm:1.2.0"],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react", "npm:16.14.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["create-react-class", [\
+        ["npm:15.7.0", {\
+          "packageLocation": "./.yarn/cache/create-react-class-npm-15.7.0-667818a95c-0c5f43da70.zip/node_modules/create-react-class/",\
+          "packageDependencies": [\
+            ["create-react-class", "npm:15.7.0"],\
+            ["loose-envify", "npm:1.4.0"],\
+            ["object-assign", "npm:4.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["formik", [\
+        ["npm:0.11.11", {\
+          "packageLocation": "./.yarn/cache/formik-npm-0.11.11-5583bac299-ce0fde6f1d.zip/node_modules/formik/",\
+          "packageDependencies": [\
+            ["formik", "npm:0.11.11"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:4886ee645a737dd06a04165bf81a72678c127466bf6282be24c29d8e4b49d64f60f2a5d68075e11f3a43a50c8ddc9a8c3cc169b43520d085ffe745a9ef01f592#npm:0.11.11", {\
+          "packageLocation": "./.yarn/__virtual__/formik-virtual-fa0d74f5e2/0/cache/formik-npm-0.11.11-5583bac299-ce0fde6f1d.zip/node_modules/formik/",\
+          "packageDependencies": [\
+            ["formik", "virtual:4886ee645a737dd06a04165bf81a72678c127466bf6282be24c29d8e4b49d64f60f2a5d68075e11f3a43a50c8ddc9a8c3cc169b43520d085ffe745a9ef01f592#npm:0.11.11"],\
+            ["@types/react", null],\
+            ["lodash.clonedeep", "npm:4.5.0"],\
+            ["lodash.isequal", "npm:4.5.0"],\
+            ["lodash.topath", "npm:4.5.2"],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react", "npm:17.0.2"],\
+            ["warning", "npm:3.0.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["js-tokens", [\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/js-tokens-npm-4.0.0-0ac852e9e2-8a95213a5a.zip/node_modules/js-tokens/",\
+          "packageDependencies": [\
+            ["js-tokens", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lodash.clonedeep", [\
+        ["npm:4.5.0", {\
+          "packageLocation": "./.yarn/cache/lodash.clonedeep-npm-4.5.0-fbc3cda4e5-92c46f094b.zip/node_modules/lodash.clonedeep/",\
+          "packageDependencies": [\
+            ["lodash.clonedeep", "npm:4.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lodash.isequal", [\
+        ["npm:4.5.0", {\
+          "packageLocation": "./.yarn/cache/lodash.isequal-npm-4.5.0-f8b0f64d63-da27515dc5.zip/node_modules/lodash.isequal/",\
+          "packageDependencies": [\
+            ["lodash.isequal", "npm:4.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lodash.topath", [\
+        ["npm:4.5.2", {\
+          "packageLocation": "./.yarn/cache/lodash.topath-npm-4.5.2-d5c9ec2440-04583e220f.zip/node_modules/lodash.topath/",\
+          "packageDependencies": [\
+            ["lodash.topath", "npm:4.5.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["loose-envify", [\
+        ["npm:1.4.0", {\
+          "packageLocation": "./.yarn/cache/loose-envify-npm-1.4.0-6307b72ccf-6517e24e0c.zip/node_modules/loose-envify/",\
+          "packageDependencies": [\
+            ["loose-envify", "npm:1.4.0"],\
+            ["js-tokens", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["moment", [\
+        ["npm:2.29.4", {\
+          "packageLocation": "./.yarn/cache/moment-npm-2.29.4-902943305d-0ec3f9c2bc.zip/node_modules/moment/",\
+          "packageDependencies": [\
+            ["moment", "npm:2.29.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["object-assign", [\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/object-assign-npm-3.0.0-8d79858461-56c66a7731.zip/node_modules/object-assign/",\
+          "packageDependencies": [\
+            ["object-assign", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:4.1.1", {\
+          "packageLocation": "./.yarn/cache/object-assign-npm-4.1.1-1004ad6dec-fcc6e4ea8c.zip/node_modules/object-assign/",\
+          "packageDependencies": [\
+            ["object-assign", "npm:4.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["prop-types", [\
+        ["npm:15.8.1", {\
+          "packageLocation": "./.yarn/cache/prop-types-npm-15.8.1-17c71ee7ee-c056d3f1c0.zip/node_modules/prop-types/",\
+          "packageDependencies": [\
+            ["prop-types", "npm:15.8.1"],\
+            ["loose-envify", "npm:1.4.0"],\
+            ["object-assign", "npm:4.1.1"],\
+            ["react-is", "npm:16.13.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react", [\
+        ["npm:16.14.0", {\
+          "packageLocation": "./.yarn/cache/react-npm-16.14.0-932446ec69-8484f3ecb1.zip/node_modules/react/",\
+          "packageDependencies": [\
+            ["react", "npm:16.14.0"],\
+            ["loose-envify", "npm:1.4.0"],\
+            ["object-assign", "npm:4.1.1"],\
+            ["prop-types", "npm:15.8.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:17.0.2", {\
+          "packageLocation": "./.yarn/cache/react-npm-17.0.2-99ba37d931-b254cc17ce.zip/node_modules/react/",\
+          "packageDependencies": [\
+            ["react", "npm:17.0.2"],\
+            ["loose-envify", "npm:1.4.0"],\
+            ["object-assign", "npm:4.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:18.2.0", {\
+          "packageLocation": "./.yarn/cache/react-npm-18.2.0-1eae08fee2-88e38092da.zip/node_modules/react/",\
+          "packageDependencies": [\
+            ["react", "npm:18.2.0"],\
+            ["loose-envify", "npm:1.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-crud-table", [\
+        ["npm:0.3.1", {\
+          "packageLocation": "./.yarn/cache/react-crud-table-npm-0.3.1-4886ee645a-ccbb915e57.zip/node_modules/react-crud-table/",\
+          "packageDependencies": [\
+            ["react-crud-table", "npm:0.3.1"],\
+            ["bem-react-component-creator", "npm:1.2.0"],\
+            ["formik", "virtual:4886ee645a737dd06a04165bf81a72678c127466bf6282be24c29d8e4b49d64f60f2a5d68075e11f3a43a50c8ddc9a8c3cc169b43520d085ffe745a9ef01f592#npm:0.11.11"],\
+            ["moment", "npm:2.29.4"],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react", "npm:17.0.2"],\
+            ["react-datetime", "virtual:4886ee645a737dd06a04165bf81a72678c127466bf6282be24c29d8e4b49d64f60f2a5d68075e11f3a43a50c8ddc9a8c3cc169b43520d085ffe745a9ef01f592#npm:2.16.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-datetime", [\
+        ["npm:2.16.3", {\
+          "packageLocation": "./.yarn/cache/react-datetime-npm-2.16.3-d6f981f191-802616a8de.zip/node_modules/react-datetime/",\
+          "packageDependencies": [\
+            ["react-datetime", "npm:2.16.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:4886ee645a737dd06a04165bf81a72678c127466bf6282be24c29d8e4b49d64f60f2a5d68075e11f3a43a50c8ddc9a8c3cc169b43520d085ffe745a9ef01f592#npm:2.16.3", {\
+          "packageLocation": "./.yarn/__virtual__/react-datetime-virtual-7d3bdf24f1/0/cache/react-datetime-npm-2.16.3-d6f981f191-802616a8de.zip/node_modules/react-datetime/",\
+          "packageDependencies": [\
+            ["react-datetime", "virtual:4886ee645a737dd06a04165bf81a72678c127466bf6282be24c29d8e4b49d64f60f2a5d68075e11f3a43a50c8ddc9a8c3cc169b43520d085ffe745a9ef01f592#npm:2.16.3"],\
+            ["@types/moment", null],\
+            ["@types/react", null],\
+            ["@types/react-dom", null],\
+            ["create-react-class", "npm:15.7.0"],\
+            ["moment", "npm:2.29.4"],\
+            ["object-assign", "npm:3.0.0"],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react", "npm:17.0.2"],\
+            ["react-dom", null],\
+            ["react-onclickoutside", "virtual:7d3bdf24f12ec3ef963e0c549733577bb22689299fe49aa964a6a8c38ca73606c4fcd7b0109b6be2ed473497791c321c7b6e09c55ca6a13d529095d4e867f2b2#npm:6.13.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/moment",\
+            "@types/react-dom",\
+            "@types/react",\
+            "moment",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-is", [\
+        ["npm:16.13.1", {\
+          "packageLocation": "./.yarn/cache/react-is-npm-16.13.1-a9b9382b4f-f7a19ac349.zip/node_modules/react-is/",\
+          "packageDependencies": [\
+            ["react-is", "npm:16.13.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-onclickoutside", [\
+        ["npm:6.13.0", {\
+          "packageLocation": "./.yarn/cache/react-onclickoutside-npm-6.13.0-c9116fb62e-a7cfe62e91.zip/node_modules/react-onclickoutside/",\
+          "packageDependencies": [\
+            ["react-onclickoutside", "npm:6.13.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:7d3bdf24f12ec3ef963e0c549733577bb22689299fe49aa964a6a8c38ca73606c4fcd7b0109b6be2ed473497791c321c7b6e09c55ca6a13d529095d4e867f2b2#npm:6.13.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-onclickoutside-virtual-592c73981b/0/cache/react-onclickoutside-npm-6.13.0-c9116fb62e-a7cfe62e91.zip/node_modules/react-onclickoutside/",\
+          "packageDependencies": [\
+            ["react-onclickoutside", "virtual:7d3bdf24f12ec3ef963e0c549733577bb22689299fe49aa964a6a8c38ca73606c4fcd7b0109b6be2ed473497791c321c7b6e09c55ca6a13d529095d4e867f2b2#npm:6.13.0"],\
+            ["@types/react", null],\
+            ["@types/react-dom", null],\
+            ["react", "npm:17.0.2"],\
+            ["react-dom", null]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["uuid", [\
+        ["npm:9.0.0", {\
+          "packageLocation": "./.yarn/cache/uuid-npm-9.0.0-46c41e3e43-8dd2c83c43.zip/node_modules/uuid/",\
+          "packageDependencies": [\
+            ["uuid", "npm:9.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["warning", [\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/warning-npm-3.0.0-125973e5cc-c9f99a1280.zip/node_modules/warning/",\
+          "packageDependencies": [\
+            ["warning", "npm:3.0.0"],\
+            ["loose-envify", "npm:1.4.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]]\
     ]\
