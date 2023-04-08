@@ -1,16 +1,25 @@
-import React from "react";
+import React, { useRef } from "react";
 
 export default function AddItem({ setData }) {
+  const customerRef = useRef();
+  const imageRef = useRef();
+  const styleRef = useRef();
+  const designRef = useRef();
+  const descRef = useRef();
+  const sampleRef = useRef();
+  const qttRef = useRef();
+  const cmtsRef = useRef();
+
   function handleValues(event) {
     event.preventDefault();
-    const customer = event.target.elements.Customer.value;
-    const image = event.target.elements.Image.value;
-    const style = event.target.elements.Style.value;
-    const design = event.target.elements.Design.value;
-    const desc = event.target.elements.Desc.value;
-    const sample = event.target.elements.Sample.value;
-    const qtt = event.target.elements.Qtt.value;
-    const cmts = event.target.elements.Cmts.value;
+    const customer = event.target.elements.customer.value;
+    const image = event.target.elements.image.value;
+    const style = event.target.elements.style.value;
+    const design = event.target.elements.design.value;
+    const desc = event.target.elements.desc.value;
+    const sample = event.target.elements.sample.value;
+    const qtt = event.target.elements.qtt.value;
+    const cmts = event.target.elements.cmts.value;
     const newItem = {
       id: 5,
       customer,
@@ -21,20 +30,33 @@ export default function AddItem({ setData }) {
       sample,
       qtt,
       cmts,
-    }
-    setData(preData => preData.concat(newItem));
+    };
+    setData((preData) => preData.concat(newItem));
+    customerRef.current.value = "";
+    imageRef.current.value = "";
+    styleRef.current.value = "";
+    designRef.current.value = "";
+    descRef.current.value = "";
+    sampleRef.current.value = "";
+    qttRef.current.value = "";
+    cmtsRef.current.value = "";
   }
 
   return (
     <form className="addForm" onSubmit={handleValues}>
-      <input type="text" name="Customer" placeholder="Customer" />
-      <input type="text" name="Image" placeholder="CAD" />
-      <input type="text" name="Style" placeholder="Style#" />
-      <input type="text" name="Design" placeholder="Design#" />
-      <input type="text" name="Desc" placeholder="Description" />
-      <input type="text" name="Sample" placeholder="Sample" />
-      <input type="text" name="Qtt" placeholder="Qtt" />
-      <input type="text" name="Cmts" placeholder="Comments" />
+      <input
+        type="text"
+        name="customer"
+        placeholder="Customer"
+        ref={customerRef}
+      />
+      <input type="text" name="image" placeholder="CAD" ref={imageRef} />
+      <input type="text" name="style" placeholder="Style#" ref={styleRef} />
+      <input type="text" name="design" placeholder="Design#" ref={designRef} />
+      <input type="text" name="desc" placeholder="Description" ref={descRef} />
+      <input type="text" name="sample" placeholder="Sample" ref={sampleRef} />
+      <input type="text" name="qtt" placeholder="Qtt" ref={qttRef} />
+      <input type="text" name="cmts" placeholder="Comments" ref={cmtsRef} />
       <button>Add</button>
     </form>
   );
