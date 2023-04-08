@@ -16,10 +16,10 @@ export default function AddItem({ setData }) {
     const image = event.target.elements.image.value;
     const style = event.target.elements.style.value;
     const design = event.target.elements.design.value;
-    const desc = event.target.elements.desc.value;
+    const desc = event.target.elements.description.value;
     const sample = event.target.elements.sample.value;
     const qtt = event.target.elements.qtt.value;
-    const cmts = event.target.elements.cmts.value;
+    const cmts = event.target.elements.comments.value;
     const newItem = {
       id: 5,
       customer,
@@ -53,10 +53,10 @@ export default function AddItem({ setData }) {
       <input type="text" name="image" placeholder="CAD" ref={imageRef} />
       <input type="text" name="style" placeholder="Style#" ref={styleRef} />
       <input type="text" name="design" placeholder="Design#" ref={designRef} />
-      <input type="text" name="desc" placeholder="Description" ref={descRef} />
+      <input type="text" name="description" placeholder="Description" ref={descRef} />
       <input type="text" name="sample" placeholder="Sample" ref={sampleRef} />
       <input type="text" name="qtt" placeholder="Qtt" ref={qttRef} />
-      <input type="text" name="cmts" placeholder="Comments" ref={cmtsRef} />
+      <input type="text" name="comments" placeholder="Comments" ref={cmtsRef} />
       <button>Add</button>
     </form>
   );
